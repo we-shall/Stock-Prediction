@@ -1,0 +1,15 @@
+How should we label text in cases where we don’t merely want to know if it is positive or negative, 
+but how positive or negative it is?
+In my domain, for example, folks want to distinguish between positive and very positive reviews. 
+I was thinking it might be better to label the reviews as a number between 1 (really negative) to 5 (really positive) instead of 
+just using using 1 or 0.
+Also, given that we are using a pretrained model here, can we do multi-label classification where a review might be classified as
+ ‘positive’, ‘thrilling’ and ‘great special effects’? Basically like the planet competition but for text
+
+
+
+SOLUTION:::While this does not necessarily answer your question regarding multi-labels, with binary classification
+ I believe you should still be able to figure out how “strong” the sentiment is by examining the probability of the prediction even 
+ if it’s just binary (positive, negative). You can see in lesson 1 notebook, you can get the prediction probability at the time of inference
+ and use that as a guide for how strong the prediction is.
+ So, for example, a positive prediction (1) with a probability 0.9 may indicate that this is a very positive text.

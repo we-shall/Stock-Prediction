@@ -1,0 +1,13 @@
+Abstract:
+In recent years, there has been an increasing interest in sentiment analysis on consumer reviews to understand the opinion polarity 
+on social media. However, little attention has been paid to the development of deep learning for sentiment analysis on consumer reviews 
+in Chinese. The research objective of this paper is to explore the impact of deep learning for sentiment analysis on Google Play consumer 
+reviews in Chinese. A web mining technique was implemented for collecting 196,651 reviews on Google Play. We used Long Short Term Memory 
+(LSTM) deep learning model, Nai¨ve Bayes (NB), and support vector machine (SVM) approaches for sentiment analysis on consumer reviews and 
+compared the experimental results. The experimental results suggest that the accuracy of deep learning for sentiment analysis on Google 
+Play consumer review achieves 94% and deep learning approach outperforms Nai¨ve Bayes (74.12%) and Support Vector Machine (76.46%) in the 
+present study. Our finding confirmed that sentiment analysis on Google Play consumer review with deep learning is outstanding.
+ The contributions of this paper are three-fold. First, the present study confirmed sentiment analysis with deep learning on Google Play 
+consumer review may improve the accuracy of prediction. Second, we create a sentiment dictionary named iSGoPaSD for Google Play review. 
+Third, the study compared the result of average sampling data and non-average sampling data. We found that deep learning method with
+ non-average sampling data reached the better performanc

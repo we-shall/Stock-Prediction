@@ -1,0 +1,7 @@
+1. Convert words to vector by using the naive approach i.e the one-hot-encoding....
+2. use one of arrangement techniques a.Word2Vec b. GLOVE
+Types of word2Vec
+ Continous bag of words () : The words are arranged such that if I enter some word it will predict the next word ... which willl have
+			     the maximum probabilty.
+ Skip gram:  It is same as that of CBOW but it can also predict the words in the surrounding if input is w(t)--> it can predict w(t-1),
+	     w(t+1) etc.

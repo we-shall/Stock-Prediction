@@ -28,4 +28,5 @@ for year in range (2015,2018):
                         for  item in soup1.select(".p-content p"):
                             print (item.get_text() + "")
                         print ("\n\n\n")
-
+#we cannot reveal the full code but this code will be sufficient for accessing title and subtile of news from any website
+#sources

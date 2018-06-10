@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 
+# this code will scrap data of the date entered by the user..
 
-#intstead of entering the data manually we will run a for loop from start date to current date
+
 print ("enter the date in DD/MM/YYYY")
 date = raw_input()
 day = date[:2]

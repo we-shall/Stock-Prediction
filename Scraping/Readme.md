@@ -3,6 +3,11 @@
 BeautifulSoup library of python is meant for extracting data from html tags, using beautiful soup library we extracted data from news sources like Reuters, Moneycontrol, IIFL, Business standards and
 Economic-times.
 
+To install beautifulSoup, type this command on terminal: 
+```
+pip install BeautifulSoup
+```
+
 The data extracted has the following format: 
 #### Date, Title, Subtitle, Content, Tags, Categories, Sources 
 
@@ -15,9 +20,14 @@ crawler is when **.pdf or .txt** file is received. Using the crawler we dowloade
 
 for Crawler Code [Click Here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping/Crawler).
 
-### Using Twitter API for Extracting latest news from twitter.
+### Using Twitter API for Extracting latest news from twitter:
 
 The twitter API is launched by twitter so that user can access the tweets worldwide and make sense out of the data.
-But there are certain limitation using twitter 
+But there are certain limitation using twitter free version i.e the access rate is slow and the number of requests are 
+restricted. So, if you want good amount of data in less time and without restriction you must enroll for enterprise version 
+of the api.
+ 
 
+**Register for API here**: https://developer.twitter.com/content/developer-twitter/en.html
 
+For Twitter code [Click Here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping/TwitterScraping).

@@ -2,9 +2,9 @@
 The git is about Indian Stock market prediction.
 
 ## Types of data available with us:
-1.News data 
+1. News data 
 
-2.Quant Data of Company listed in NSE (National Stock Exchange India) 
+2. Quant Data of Company listed in NSE (National Stock Exchange India) 
 
 The model is based on correlating the stock and news data.
 
@@ -31,4 +31,4 @@ The model is based on correlating the stock and news data.
 
 ### Explanation
 
-We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. For more details, click [Here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping).
+We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. Data from twitter is also scraped for better real-time collection of data. For more details, click [Here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping).

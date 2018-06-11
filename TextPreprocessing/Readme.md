@@ -22,12 +22,15 @@ In nltk it is implemented using **WordNetLemmatizer**
 #### PartOfSpeech Tagging
 
 The part of speech tagging is meant to tag a word so that word can be categorised as noun, verb, adverb etc.
-various tags::
-CC	coordinating conjunction,
-CD	cardinal digit,
-DT	determiner,
-EX	existential there (like: "there is" ... think of it like "there exists"),
-FW	foreign word,
+various tags:
+
+| Tags | Meaning |
+| ---- |:-------:|
+| CC	| Coordinating conjunction |
+| CD |	Cardinal digit |
+| DT	| Determiner |
+| EX |	Existential there (like: "there is", think of it like "there exists") |
+| FW	| Foreign word |
 IN	preposition/subordinating conjunction,
 JJ	adjective	'big',
 JJR	adjective, comparative	'bigger',

@@ -1,12 +1,12 @@
 #### Tokenise data:
 
 Tokenise means to convert long string of data into tokens i.e converting a string of sentence or paragraph to be stored 
-as list of words. For tokenising we are using nltk tokeniser **word_tokenise** or **sent_tokenise** from nltk library
+as list of words. For tokenising we are using nltk tokeniser **word_tokenise** or **sent_tokenise** from NLTK library.
 
 #### Stopwords Removal
 
-Stop words are natural language words which have very little meaning, such as "and", "the", "a", "an", and similar words.
-These stopwords are captured using stopword lib present in nltk.
+Stop words are natural language words which have very little meaning, such as 'and', 'the', 'a', 'an', and similar words.
+These stopwords are captured using stopword lib present in NLTK.
 
 #### Stemming
 

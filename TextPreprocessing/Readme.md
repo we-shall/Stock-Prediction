@@ -24,40 +24,40 @@ In nltk it is implemented using **WordNetLemmatizer**
 The part of speech tagging is meant to tag a word so that word can be categorised as noun, verb, adverb etc.
 various tags:
 
-| Tags | Meaning |
+| Tags | Meaning With Example|
 | ---- |:-------:|
 | CC	| Coordinating conjunction |
 | CD |	Cardinal digit |
 | DT	| Determiner |
 | EX |	Existential there (like: "there is", think of it like "there exists") |
 | FW	| Foreign word |
-IN	preposition/subordinating conjunction,
-JJ	adjective	'big',
-JJR	adjective, comparative	'bigger',
-JJS	adjective, superlative	'biggest',
-LS	list marker	1)
-MD	modal	could, will,
-NN	noun, singular 'desk',
-NNS	noun plural	'desks',
-NNP	proper noun, singular	'Harrison',
-NNPS	proper noun, plural	'Americans',
-PDT	predeterminer	'all the kids',
-POS	possessive ending	parent's,
-PRP	personal pronoun	I, he, she,
-PRP$	possessive pronoun	my, his, hers,
-RB	adverb	very, silently,,
-RBR	adverb, comparative	better,
-RBS	adverb, superlative	best,
-RP	particle	give up,
-TO	to	go 'to' the store.,
-UH	interjection	errrrrrrrm,
-VB	verb, base form	take,
-VBD	verb, past tense	took,
-VBG	verb, gerund/present participle	taking,
-VBN	verb, past participle	taken,
-VBP	verb, sing. present, non-3d	take,
-VBZ	verb, 3rd person sing. present	takes,
-WDT	wh-determiner	which,
-WP	wh-pronoun	who, what,
-WP$	possessive wh-pronoun	whose,
-WRB	wh-abverb	where, when"""
+| IN |	Preposition/subordinating conjunction |
+| JJ	| Adjective	'big' |
+| JJR |	Adjective, comparative	'bigger' |
+| JJS	| Adjective, superlative	'biggest' |
+| LS	| List marker	1) |
+| MD	| Modal	could, will |
+| NN	| Noun, singular 'desk' |
+| NNS |	Noun, plural	'desks' |
+| NNP	| Proper noun, singular	'Harrison' |
+| NNPS	| Proper noun, plural	'Americans' |
+| PDT |	Predeterminer	'all the kids' |
+| POS	| Possessive ending	parent's |
+| PRP |	Personal pronoun	I, he, she |
+| PRP$	| Possessive pronoun	my, his, hers |
+| RB |	Adverb	very, silently |
+| RBR | Adverb, comparative	better |
+| RBS	| adverb, superlative	best |
+| RP	| Particle	give up |
+| TO	| To	go 'to' the store |
+| UH	| Interjection	errrrrrrrm |
+| VB	| Verb, base form	take |
+| VBD	| Verb, past tense	took |
+| VBG	| Verb, gerund/present participle	taking |
+| VBN	| Verb, past participle	taken |
+| VBP	| Verb, sing. present, non-3d	take |
+| VBZ	| Verb, 3rd person sing. present	takes |
+| WDT	| Wh-determiner	which |
+| WP	| Wh-pronoun	who, what |
+| WP$	| Possessive wh-pronoun	whose |
+| WRB	| Wh-abverb	where, when |

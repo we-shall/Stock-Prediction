@@ -35,15 +35,14 @@ The model is based on correlating the stock and news data.
 
 **DATA COLLECTION**
 
-We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. Data from twitter is also scraped for better real-time collection of data. For more details, click [Here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping). We also scraped twitter for getting realtime 
-data and for getting annual reports in pdf format we used crawler.
+We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. Data from twitter is also scraped for better real-time collection of data. For more details, click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping). We also scraped twitter for getting realtime 
+data and we used crawler to get the annual reports.
 
 **PREPROCESSING DATA**
 
-Cleaning the news : Stemming, chunking, chinking, stopwords removal etc 
-[preprocessing](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/TextPreprocessing)
-and for giving a sentiment value to the text obtained we used nltk sentimentIntensityAnalyser, Amazon boto etc
-[labeling with sentiment](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb)
+Cleaning the news : Stemming, chunking, chinking, stopwords removal etc. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/TextPreprocessing) for more details.
+
+Associating company names to the news article to know which news was related to which company. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Company%20Name%20Extractor) for more details.
 
 **SENTIMENT ANALYSIS OF NEWS**
 

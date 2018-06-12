@@ -45,8 +45,9 @@ Cleaning the news : Stemming, chunking, chinking, stopwords removal etc
 and for giving a sentiment value to the text obtained we used nltk sentimentIntensityAnalyser, Amazon boto etc
 [labeling with sentiment](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb)
 
-****
+**SENTIMENT ANALYSIS OF NEWS**
 
+It is important to find the sentiment of each news. The sentiment value gives us a better understanding whether the news was a positive, negative, mixed or neutral one. This also helps in sorting out the neutral news. News of announcements and political parties have little role to play in building the model for forecasting. Hence these can be ignored. Sentiment analysis using the Amazon Web Services Comprehend API can be found [here](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb).
 
 
 

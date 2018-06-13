@@ -20,7 +20,7 @@ The model is based on correlating the stock and news data.
 
 2. Preprocessing the data
   * Cleaning the news.
-  * Labeling the news with a sentiment value
+  * Associating company name to news article.
 
 3. Predicting Sentiment based on previous sentiment:
   * Using Classifiers present in scipy library of python: Naive bayes, Bernaulli etc.

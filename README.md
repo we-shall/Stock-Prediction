@@ -55,7 +55,7 @@ It is important to find the sentiment of each news. The sentiment value gives us
 
 * Sentiment analysis using classifiers present in scipy library of python. This classifiers should be trained on a dataset.
   Followed by testing the prediction. The prediction accuracy of the model was around 70% on an average.
-  [click here](https://github.com/vishalsingh9423/Stock-            Prediction/tree/master/Sentiment%20analysis%20of%20news/MovieReviewsSentimentAnalysis) for the code.
+  [click here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/MovieReviewsSentimentAnalysis) for the code.
 
 * Sentiment analysis using the Amazon Web Services Comprehend API can be found [here](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb).
 

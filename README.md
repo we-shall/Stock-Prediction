@@ -62,7 +62,7 @@ It is important to find the sentiment of each news. The sentiment value gives us
 
 * Sentiment Analysis using deeplearning model. The deep learning model requires a well labeled dataset in csv format. So first we need to get a labeled dataset (text with a sentiment label) and then train the model using that dataset and after training we can enter text in model and we can get a sentiment value of the text. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/deeplearningModel) for the code.
 
-The accuracy of the deeplearning model is a **state of art accuracy**. It has an **accuracy of 97%**.
+The accuracy of the deeplearning model is **97%**!
 
 **PREPROCESSING THE DATA (ALTERNATE METHOD)**
 

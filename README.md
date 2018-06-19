@@ -24,11 +24,11 @@ The model is based on correlating the stock and news data.
 
 3. Predicting Sentiment based on previous sentiments:
   * Using Classifiers present in scipy library of python: Naive bayes, Bernaulli etc.
-  * the Amazon Web Services Comprehend API boto.
-  * nltk's Sentiment Intensity Analyser
-  * Using deeplearning model.
+  * the Amazon Web Services(AWS) Comprehend API.
+  * Nltk's Sentiment Intensity Analyser
+  * The deeplearning model.
 
-4. Preprocessing the data stage2:
+4. Preprocessing the data:
   * Using regression to find out news effect on stock price and volume
   
 5. Correlating news with the stock data present:
@@ -43,9 +43,9 @@ The model is based on correlating the stock and news data.
 We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. Data from twitter is also scraped for better real-time collection of data. For more details, click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping). We also scraped twitter for getting realtime 
 data and we used crawler to get the annual reports.
 
-**PREPROCESSING DATA (stage1)**
+**PREPROCESSING DATA**
 
-Cleaning the news : Stemming, chunking, chinking, stopwords removal etc. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/TextPreprocessing) for more details.
+Cleaning the news: Stemming, chunking, chinking, stopwords removal etc. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/TextPreprocessing) for more details.
 
 Associating company names to the news article to know which news was related to which company. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Company%20Name%20Extractor) for more details.
 
@@ -59,37 +59,26 @@ It is important to find the sentiment of each news. The sentiment value gives us
 
 * Sentiment analysis using the Amazon Web Services Comprehend API can be found [here](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb).
 
-* Sentiment Analysis using nltk's SentimentIntensityAnalyser. The SentimentIntensity analyser predicts the sentiment in 4 parts positive, negative, neutral and compound. The result of this library was quite accurate and up to mark. This library is already trained library, so it helped us labeling the text with a sentiment value.[Code](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/tfidfSentimentAnalysis)
+* Sentiment Analysis using Nltk's Sentiment Intensity Analyser. The Sentiment intensity analyser predicts the sentiment in 4 parts positive, negative, neutral and compound. The result of this library was quite accurate and up to mark. This library is already trained library, so it helped us labeling the text with a sentiment value. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/tfidfSentimentAnalysis) for the code.
 
-* Sentiment Analysis using deeplearning model. The deep learning model requires a well labeled dataset in csv format. So first we need to get a labeled dataset (text with a sentiment label) and then train the model using that dataset and after training we can enter text in model and we can get a sentiment value of the text.[Code](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/deeplearningModel)
+* Sentiment Analysis using deeplearning model. The deep learning model requires a well labeled dataset in csv format. So first we need to get a labeled dataset (text with a sentiment label) and then train the model using that dataset and after training we can enter text in model and we can get a sentiment value of the text. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/deeplearningModel) for the code.
 
 The accuracy of the deeplearning model is a **state of art accuracy**. It has an **accuracy of 97%**.
 
-**PREPROCESSING DATA (stage2)**
+**PREPROCESSING THE DATA (ALTERNATE METHOD)**
 
-In stage2 we need to label the news with quant data regression line slope value.
-So for that we first open the news file and checked its date-time, now that date-time is searched in quant data. If the time is present in market hours of stock market then the text is labeled with slope value of regression line.Else if news is not in market hours then closing value of previous day and opening value of current days' regression line acts as its label.
-[Code](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Merging%20quant%20and%20news)
+We label the news with quant data regression line slope value.
+So for that we first open the news file and checked its date-time, now that date-time is searched in quant data. If the time is present in market hours of stock market then the text is labeled with slope value of regression line.Else if news is not in market hours then closing value of previous day and opening value of current days' regression line acts as its label. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Merging%20quant%20and%20news) for the code.
 
 
-**Training model based on data prepared in stage 2 preprocessing**
+**Training model based on the prepared data**
 
 Now we have two values the sentiment value of the text and slope value of quant when the news broke out in the market.
 We made a deep learning model such that the input was the sentiment value and the target value will be the slope value.
 So from this we can predict if a news about a company comes in market what will be the impact of it on the price and volume of the stocks of that company. We cannot disclose the code for this model.
 
-[EXTRA]
-
+**AN EXAMPLE OF BUILDING A DEEP LEARNING MODEL**
 **Predicting stock value using Quant Data only (LSTM model)**
 
 We also created a LSTM model which will be predicting a future price of stocks and this model is trained on just the stock data. The input of the model is closing value of previous day and target value was set to opening value of current day.
-This model was not as accurate but it can predict the possibility and flow. [Code](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/Model%20for%20Stock%20Prediction%20using%20quant%20only)
-
-
-
-
-
-
-
-
-
+This model was not as accurate but it can predict the possibility and flow. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Sentiment%20analysis%20of%20news/Model%20for%20Stock%20Prediction%20using%20quant%20only) for the code.

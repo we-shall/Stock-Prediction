@@ -1,6 +1,7 @@
-ive appropriate paths in all programs
-positive.txt consist of text which has a positive sentiment
-negative.txt consist of text which has a negative sentiment
+appropriate paths are set in all programs
+
+* positive.txt consist of text which has a positive sentiment
+* negative.txt consist of text which has a negative sentiment
 
 1.First run the sentiment_mod file to create the pickle files
 

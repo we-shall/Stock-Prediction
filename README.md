@@ -1,7 +1,7 @@
 # Stock-Prediction
 The git is about Indian Stock market prediction.
 
-[**RESEARCH PAPERS**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Research)
+[**REF. RESEARCH PAPERS**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Research)
 
 ## Types of data available with us:
 1. News data 
@@ -22,13 +22,18 @@ The model is based on correlating the stock and news data.
   * Cleaning the news.
   * Associating company name to news article.
 
-3. Predicting Sentiment based on previous sentiment:
+3. Predicting Sentiment based on previous sentiments:
   * Using Classifiers present in scipy library of python: Naive bayes, Bernaulli etc.
+  * the Amazon Web Services Comprehend API boto.
+  * nltk's Sentiment Intensity Analyser
   * Using deeplearning model.
-  
-4. Correlating news with the stock data present:
-  * Deeplearning model.
+
+4. Preprocessing the data stage2:
   * Using regression to find out news effect on stock price and volume
+  
+5. Correlating news with the stock data present:
+  * Deeplearning model for correlating news impact on stock price and volume.
+  * Using LSTM for predicting stock price.
   
 
 ### Explanation
@@ -38,7 +43,7 @@ The model is based on correlating the stock and news data.
 We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. Data from twitter is also scraped for better real-time collection of data. For more details, click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping). We also scraped twitter for getting realtime 
 data and we used crawler to get the annual reports.
 
-**PREPROCESSING DATA**
+**PREPROCESSING DATA (stage1)**
 
 Cleaning the news : Stemming, chunking, chinking, stopwords removal etc. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/TextPreprocessing) for more details.
 
@@ -46,8 +51,31 @@ Associating company names to the news article to know which news was related to 
 
 **SENTIMENT ANALYSIS OF NEWS**
 
-It is important to find the sentiment of each news. The sentiment value gives us a better understanding whether the news was a positive, negative, mixed or neutral one. This also helps in sorting out the neutral news. News of announcements and political parties have little role to play in building the model for forecasting. Hence these can be ignored. Sentiment analysis using the Amazon Web Services Comprehend API can be found [here](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb).
+It is important to find the sentiment of each news. The sentiment value gives us a better understanding whether the news was a positive, negative, mixed or neutral one. This also helps in sorting out the neutral news. News of announcements and political parties have little role to play in building the model for forecasting. Hence these can be ignored. 
 
+* Sentiment analysis using 
+
+* Sentiment analysis using the Amazon Web Services Comprehend API can be found [here](https://github.com/vishalsingh9423/Stock-Prediction/blob/master/Sentiment%20analysis%20of%20news/Sentiment%20using%20AWS%20comprehend/Sentiment%20using%20aws%20comprehend.ipynb).
+
+
+
+**PREPROCESSING DATA (stage2)**
+
+
+
+
+
+
+**Training model based on data prepared in stage 2 preprocessing**
+//slope value...
+//sentiment value
+//news 
+
+
+
+
+[EXTRA]
+**Predicting stock value using Quant Data only (LSTM model)**
 
 
 

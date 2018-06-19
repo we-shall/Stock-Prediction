@@ -76,7 +76,10 @@ Now we have two values the sentiment value of the text and slope value of quant 
 We made a deep learning model such that the input was the sentiment value and the target value will be the slope value.
 So from this we can predict if a news about a company comes in market what will be the impact of it on the price and volume of the stocks of that company. We cannot disclose the code for this model.
 
+
+
 **AN EXAMPLE OF BUILDING A DEEP LEARNING MODEL**
+
 **Predicting stock value using Quant Data only (LSTM model)**
 
 We also created a LSTM model which will be predicting a future price of stocks and this model is trained on just the stock data. The input of the model is closing value of previous day and target value was set to opening value of current day.

@@ -43,7 +43,7 @@ The model is based on correlating the stock and news data.
 We start collecting the news from different sources. We have scraped news from Moneycontrol, IIFL, Economic Times, Business Standard, Reuters and LiveMint. Attributes such as Tags, Title, Subtitle, Categories and Content along with the time and date of the news was scraped. Data from twitter is also scraped for better real-time collection of data. For more details, click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Scraping). We also scraped twitter for getting realtime 
 data and we used crawler to get the annual reports.
 
-**PREPROCESSING DATA**
+**PREPROCESSING DATA (Stage 1)**
 
 Cleaning the news: Stemming, chunking, chinking, stopwords removal etc. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/TextPreprocessing) for more details.
 
@@ -64,7 +64,7 @@ It is important to find the sentiment of each news. The sentiment value gives us
 
 The accuracy of the deeplearning model is **97%**!
 
-**PREPROCESSING THE DATA (ALTERNATE METHOD)**
+**PREPROCESSING THE DATA (Stage 2)**
 
 We label the news with quant data regression line slope value.
 So for that we first open the news file and checked its date-time, now that date-time is searched in quant data. If the time is present in market hours of stock market then the text is labeled with slope value of regression line.Else if news is not in market hours then closing value of previous day and opening value of current days' regression line acts as its label. Click [here](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Merging%20quant%20and%20news) for the code.

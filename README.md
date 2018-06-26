@@ -10,6 +10,23 @@ The git is about Indian Stock market prediction.
 
 The model is based on correlating the stock and news data.
 
+## Data Analysis:
+Since, stock data is almost normally distributed we can use various statistical analysis techniques like mean, std. deviation, correlation, covariance, regression models, confidence interval,  leverage, beta hedging, etc to get insights. For more information about statistical finance check out these [**notes**](https://github.com/YogeshKothari26/Quantopian-Lecture-Notes)
+
+Using combination of regression models and other statistics we have developed following techniques to study key behaviour of time-series data of different equities and further relating them to corresponding news.
+
+* **Breakpoints:**
+
+This is to target certain maxima and minima in the quant data of companies, which can further be trained with news and their sentiments. Breakpoints can also be analysed to find the optimum buy and sell time for maximizing profit. Breakpoint can be characterised on the basis of skewness, kurtosis, etc. [**Here**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Breakpoint) are the code and outputs to detect particular breakpoints.
+
+* **News impact analysis using volume:**
+
+We can determine the sentiment of the news by the change in price, as to check wether the news was positive or negative. But to measure the impact a news carry we should use volume as one of the factor. Volume of a stock is very volatile, and thus, it is difficult to analyse the impact by simply calculating percentage change in the volume itself. [**Here**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/News%20Impact%20-%20Volume%20Analysis)  is an approach to study the impact news carry by using the volume data before and  after the news, and simple statistical factors like mean and standard deviation.
+
+* **Pairs trading:**
+
+Pairs traders wait for weakness in the correlation and then go long the under-performer while simultaneously short selling the over-performer, closing the positions as the relationship returns to statistical norms. Thus, here we try to club togather assetes that are uncorrelated so that we can save ourselves from heavy loss. The basic strategy is to create a stable porfolio and keep earning on it. [**Here**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Pairs%20Trading) is an approach to pair assets on the basis of their correlation and covariance matrices and build reduce risks of the portfolio.
+
 ## Series of steps must be followed for predicting the stock price based on news:
 
 1. Collecting Data: Mainly company related news which are listed nse India

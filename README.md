@@ -11,7 +11,7 @@ The git is about Indian Stock market prediction.
 The model is based on correlating the stock and news data.
 
 ## Data Analysis:
-Since, stock data is almost normally distributed we can use various statistical analysis techniques like mean, correlation, covariance, regression models, confidence interval,  leverage, beta hedging, etc. For more information about statistical finance check out theese [**notes**](https://github.com/YogeshKothari26/Quantopian-Lecture-Notes)
+Since, stock data is almost normally distributed we can use various statistical analysis techniques like mean, correlation, covariance, regression models, confidence interval,  leverage, beta hedging, etc to get insights. For more information about statistical finance check out theese [**notes**](https://github.com/YogeshKothari26/Quantopian-Lecture-Notes)
 
 Using combination of regression models and other statistics we have developed following techniques to study key behaviour of time-series data of different equitites and further relating them to corresponding news.
 

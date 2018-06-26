@@ -11,12 +11,12 @@ The git is about Indian Stock market prediction.
 The model is based on correlating the stock and news data.
 
 ## Data Analysis:
-Since, stock data is almost normally distributed we can use various statistical analysis techniques like mean, correlation, covariance, regression models, confidence interval,  leverage, beta hedging, etc to get insights. For more information about statistical finance check out theese [**notes**](https://github.com/YogeshKothari26/Quantopian-Lecture-Notes)
+Since, stock data is almost normally distributed we can use various statistical analysis techniques like mean, correlation, covariance, regression models, confidence interval,  leverage, beta hedging, etc to get insights. For more information about statistical finance check out these [**notes**](https://github.com/YogeshKothari26/Quantopian-Lecture-Notes)
 
-Using combination of regression models and other statistics we have developed following techniques to study key behaviour of time-series data of different equitites and further relating them to corresponding news.
+Using combination of regression models and other statistics we have developed following techniques to study key behaviour of time-series data of different equities and further relating them to corresponding news.
 
-1. Breakpoints:
-This is to target certain maxima and minima in the quant data of companies, which can be trained with news and their sentiments. Breakpoints can also be analysed to find the optimum buy and sell time for maximizing profit. Breakpoint can be characterised on the basis of skewness, kurtosis, etc. [**Here**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Breakpoint) are the code and outputs to detect particular breakpoints.
+* Breakpoints:
+This is to target certain maxima and minima in the quant data of companies, which can further be trained with news and their sentiments. Breakpoints can also be analysed to find the optimum buy and sell time for maximizing profit. Breakpoint can be characterised on the basis of skewness, kurtosis, etc. [**Here**](https://github.com/vishalsingh9423/Stock-Prediction/tree/master/Breakpoint) are the code and outputs to detect particular breakpoints.
 
 
 ## Series of steps must be followed for predicting the stock price based on news:
